@@ -21,13 +21,11 @@ public class index {
                 System.out.println("9. Finalizar");
                 System.out.println("");
                 String opcion = read.next();
+                System.out.println("");
                 read.nextLine(); // Para desaserse del caracter que deja haber leido antes
                 switch (opcion) {
                     case "1":
                         pts.Punto1();
-                        System.out.println("");
-                        System.out.println("Presione enter para volver al menú...");
-                        read.nextLine();
                         break;
                     case "2":
                         pts.Punto2();
@@ -59,6 +57,11 @@ public class index {
                         System.out.println("Presione enter para volver al menú...");
                         read.nextLine();
                         break;
+                }
+                if (a) {
+                    System.out.println("");
+                    System.out.println("Presione enter para volver al menú...");
+                    read.nextLine();
                 }
             }
         } finally {
