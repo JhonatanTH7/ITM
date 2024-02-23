@@ -1,4 +1,4 @@
-public class sumaNumeros {
+public class sumaNumerosDeMatriz {
     public int sumar(int matriz[][]) {
         int contador = 0;
         for (int i = 0; i < matriz.length; i++) {

@@ -5,7 +5,7 @@ public class puntos {
         // 1. Realice un algoritmo que almacene números en una matriz de 6 * 6. Imprimir
         // la suma de los números almacenados en la matriz.
         System.out.println("");
-        sumaNumeros sm = new sumaNumeros();
+        sumaNumerosDeMatriz sm = new sumaNumerosDeMatriz();
         System.out.println("La suma de todos los elementos de la matriz es " + sm.sumar(mtz.crearMatriz(6)));
     }
 
@@ -21,6 +21,8 @@ public class puntos {
         // 3.Realice un algoritmo que llene una matriz de 5 * 5. Calcular la suma de
         // cada fila y almacenarla en un vector, la suma de cada columna y almacenarla
         // en otro vector.
+        sumarEnMatriz sfev = new sumarEnMatriz();
+        sfev.sumar(mtz.crearMatriz(2));
     }
 
     public void Punto4() {
