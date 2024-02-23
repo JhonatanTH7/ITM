@@ -22,12 +22,14 @@ public class puntos {
         // cada fila y almacenarla en un vector, la suma de cada columna y almacenarla
         // en otro vector.
         separarMatriz sepMat = new separarMatriz();
-        sepMat.sumar(mtz.crearMatriz(5));
+        sepMat.sumaFilasYColumnas(mtz.crearMatriz(5));
     }
 
     public void Punto4() {
         // 4.Realice un algoritmo que llene una matriz de 10 * 10. Sumar las columnas e
         // imprimir que columna tuvo la máxima suma y la suma de esa columna
+        separarMatriz sepMat = new separarMatriz();
+        int listaCol[] = sepMat.sumaColumnas(mtz.crearMatriz(10));
     }
 
     public void Punto5() {
