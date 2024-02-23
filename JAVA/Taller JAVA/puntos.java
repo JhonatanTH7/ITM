@@ -30,6 +30,20 @@ public class puntos {
         // imprimir que columna tuvo la máxima suma y la suma de esa columna
         separarMatriz sepMat = new separarMatriz();
         int listaCol[] = sepMat.sumaColumnas(mtz.crearMatriz(10));
+        int mayor = 0;
+        int posicion = 0;
+        int index = 0;
+
+        for (int i : listaCol) {
+            index++;
+            if (i > mayor) {
+                mayor = i;
+                posicion = index;
+            }
+            System.out.println("columna: " + index + " valor: " + i);
+        }
+        System.out.println("");
+        System.out.println("La columna con la mayor suma es la " + posicion + " con un valor de " + mayor);
     }
 
     public void Punto5() {
