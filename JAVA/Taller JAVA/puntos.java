@@ -22,7 +22,7 @@ public class puntos {
         // cada fila y almacenarla en un vector, la suma de cada columna y almacenarla
         // en otro vector.
         sumarEnMatriz sfev = new sumarEnMatriz();
-        sfev.sumar(mtz.crearMatriz(2));
+        sfev.sumar(mtz.crearMatriz(5));
     }
 
     public void Punto4() {
