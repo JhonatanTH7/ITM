@@ -1,4 +1,4 @@
-public class numeroMayor {
+public class numeroMayorFilaColumna {
     public void mayor(int matriz[][]) {
         int mayor = 0;
         int fila = 0;

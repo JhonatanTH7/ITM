@@ -13,7 +13,7 @@ public class puntos {
         // 2.Realice un algoritmo que llene una matriz de 5 * 5 y determine la posición
         // [fila ,columna] del número mayor almacenado en la matriz. Los números son
         // diferentes.
-        numeroMayor nm = new numeroMayor();
+        numeroMayorFilaColumna nm = new numeroMayorFilaColumna();
         nm.mayor(mtz.crearMatriz(5));
     }
 
