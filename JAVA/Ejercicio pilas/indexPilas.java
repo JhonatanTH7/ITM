@@ -1,9 +1,10 @@
 import java.util.Scanner;
 import java.util.Stack;;
 
-public class index {
+public class indexPilas {
     public static void main(String[] args) {
         pilaPares par = new pilaPares();
+        pilaImpares impar = new pilaImpares();
         promedioPila pp = new promedioPila();
         menuPilas menu = new menuPilas();
         llenarPila llpil = new llenarPila();
@@ -30,6 +31,7 @@ public class index {
                         par.generarPila(pila);
                         break;
                     case "3":
+                        impar.generarPila(pila);
                         break;
                     case "4":
                         break;

@@ -8,7 +8,7 @@ public class pilaPares {
                 pilaPares.push(elemento);
             }
         }
-        System.out.println("La pila par generada de la pila original es: ");
+        System.out.println("La pila par generada de la pila original " + pila + " es: ");
         System.out.println(pilaPares);
     }
 }
