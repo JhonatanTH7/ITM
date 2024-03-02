@@ -1,5 +1,3 @@
-package EjercicioPilas;
-
 import java.util.Scanner;
 import java.util.Stack;;
 
