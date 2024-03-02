@@ -1,4 +1,4 @@
-package JAVA.primer_taller;
+package JAVA.talleres.primer_taller;
 
 import java.util.Scanner;;
 
