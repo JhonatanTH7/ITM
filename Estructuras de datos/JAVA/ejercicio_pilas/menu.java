@@ -1,6 +1,6 @@
 package JAVA.ejercicio_pilas;
 
-public class menuPilas {
+public class menu {
     public void mostrar() {
         System.out.println("");
         System.out.println("====== Menú ======");

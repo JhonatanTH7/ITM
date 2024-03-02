@@ -5,14 +5,15 @@ import java.util.Stack;;
 
 public class index_pilas {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
+        ordenarPila op = new ordenarPila();
         pilaPares par = new pilaPares();
         pilaImpares impar = new pilaImpares();
         promedioPila pp = new promedioPila();
-        menuPilas menu = new menuPilas();
+        menu menu = new menu();
         llenarPila llpil = new llenarPila();
-        Scanner read = new Scanner(System.in);
-        boolean a = true;
         Stack<Integer> pila = new Stack<>();
+        boolean a = true;
         System.out.println("Ingrese el numero de elementos n para la pila: ");
         int n = read.nextInt();
         pila = llpil.llenar(n);
@@ -36,6 +37,7 @@ public class index_pilas {
                         impar.generarPila(pila);
                         break;
                     case "4":
+                        op.ascendente(pila);
                         break;
                     case "5":
                         a = false;
