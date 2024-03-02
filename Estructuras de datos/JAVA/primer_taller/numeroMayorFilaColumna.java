@@ -1,3 +1,5 @@
+package JAVA.primer_taller;
+
 public class numeroMayorFilaColumna {
     public void mayor(int matriz[][]) {
         int mayor = 0;

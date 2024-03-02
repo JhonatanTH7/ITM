@@ -1,3 +1,5 @@
+package JAVA.primer_taller;
+
 import java.util.Scanner;;
 
 public class index {

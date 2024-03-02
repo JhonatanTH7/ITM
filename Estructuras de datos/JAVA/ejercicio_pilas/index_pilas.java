@@ -1,7 +1,9 @@
+package JAVA.ejercicio_pilas;
+
 import java.util.Scanner;
 import java.util.Stack;;
 
-public class indexPilas {
+public class index_pilas {
     public static void main(String[] args) {
         pilaPares par = new pilaPares();
         pilaImpares impar = new pilaImpares();

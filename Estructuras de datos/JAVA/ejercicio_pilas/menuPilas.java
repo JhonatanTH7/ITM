@@ -1,3 +1,5 @@
+package JAVA.ejercicio_pilas;
+
 public class menuPilas {
     public void mostrar() {
         System.out.println("");

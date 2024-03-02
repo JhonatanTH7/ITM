@@ -1,3 +1,5 @@
+package JAVA.primer_taller;
+
 public class puntos {
     matriz mtz = new matriz();
 

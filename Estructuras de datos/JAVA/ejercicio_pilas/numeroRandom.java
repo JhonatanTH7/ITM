@@ -1,3 +1,5 @@
+package JAVA.ejercicio_pilas;
+
 import java.util.Random;
 
 public class numeroRandom {

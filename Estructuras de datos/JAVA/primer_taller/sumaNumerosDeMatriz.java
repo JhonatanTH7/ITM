@@ -1,3 +1,5 @@
+package JAVA.primer_taller;
+
 public class sumaNumerosDeMatriz {
     public int sumar(int matriz[][]) {
         int contador = 0;

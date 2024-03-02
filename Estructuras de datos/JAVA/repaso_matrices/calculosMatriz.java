@@ -1,3 +1,5 @@
+package JAVA.repaso_matrices;
+
 public class calculosMatriz {
     public float promedio(int matriz[][]) {
         float numeroElementos = matriz.length * matriz.length;

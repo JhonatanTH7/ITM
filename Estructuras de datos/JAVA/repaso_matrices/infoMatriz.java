@@ -1,3 +1,5 @@
+package JAVA.repaso_matrices;
+
 public class infoMatriz {
     public void mostrar(int matriz[][]) {
         System.out.println("");
