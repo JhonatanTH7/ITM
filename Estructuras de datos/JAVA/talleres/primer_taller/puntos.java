@@ -64,12 +64,6 @@ public class puntos {
         suma_numeros_de_vector sv = new suma_numeros_de_vector();
         int vector[] = new int[2];
         int matriz[][] = mtz.crearMatriz(3);
-        System.out.println(sv.sumar(sm.sumaColumnas(matriz)));
-        System.out.println(sv.sumar(sm.sumaFilas(matriz)));
-        mav.imprimir_vector(sm.sumaColumnas(matriz));
-        System.out.println("");
-        mav.imprimir_vector(sm.sumaFilas(matriz));
-        System.out.println("");
         vector[0] = sv.sumar(sm.sumaColumnas(matriz));
         vector[1] = sv.sumar(sm.sumaFilas(matriz));
         mav.imprimir_vector(vector);
