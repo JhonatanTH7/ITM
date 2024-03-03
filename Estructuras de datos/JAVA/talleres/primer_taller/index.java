@@ -10,7 +10,7 @@ public class index {
         try {
             while (a) {
                 System.out.println("");
-                System.out.println("Ingrese el número de la opción deseada:");
+                System.out.println("===== Menu =====");
                 System.out.println("");
                 System.out.println("1. Punto 1");
                 System.out.println("2. Punto 2");
@@ -21,6 +21,8 @@ public class index {
                 System.out.println("7. Punto 7");
                 System.out.println("8. Punto 8");
                 System.out.println("9. Finalizar");
+                System.out.println("");
+                System.out.println("Ingrese el número de la opción deseada:");
                 System.out.println("");
                 String opcion = read.next();
                 System.out.println("");

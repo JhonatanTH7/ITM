@@ -51,14 +51,28 @@ public class puntos {
     public void Punto5() {
         // 5.Realice un algoritmo que llene una matriz de 5 * 5 y que almacene toda la
         // matriz en un vector. Imprimir el vector resultante.
-
-        mtz.crearMatriz(5);
+        matriz_a_vector mav = new matriz_a_vector();
+        mav.imprimir_vector(mav.pasar_a_vector(mtz.crearMatriz(5)));
     }
 
     public void Punto6() {
         // 6.Realice un algoritmo que llene una matriz de 8 * 8, que almacene la suma de
         // las filas y la suma de las columnas en un vector. Imprimir el vector
         // resultante.
+        matriz_a_vector mav = new matriz_a_vector();
+        separar_matriz sm = new separar_matriz();
+        suma_numeros_de_vector sv = new suma_numeros_de_vector();
+        int vector[] = new int[2];
+        int matriz[][] = mtz.crearMatriz(3);
+        System.out.println(sv.sumar(sm.sumaColumnas(matriz)));
+        System.out.println(sv.sumar(sm.sumaFilas(matriz)));
+        mav.imprimir_vector(sm.sumaColumnas(matriz));
+        System.out.println("");
+        mav.imprimir_vector(sm.sumaFilas(matriz));
+        System.out.println("");
+        vector[0] = sv.sumar(sm.sumaColumnas(matriz));
+        vector[1] = sv.sumar(sm.sumaFilas(matriz));
+        mav.imprimir_vector(vector);
     }
 
     public void Punto7() {
@@ -68,7 +82,7 @@ public class puntos {
     }
 
     public void Punto8() {
-        // 8.Diseñe un pseudocódigo que escriba el número de la fila cuya suma sea mayor
+        // 8.Diseñe un algoritmo que escriba el número de la fila cuya suma sea mayor
         // que las demás filas. Suponga que todas las filas suman diferente cantidad.
     }
 }

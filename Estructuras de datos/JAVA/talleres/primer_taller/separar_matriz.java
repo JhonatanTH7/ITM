@@ -18,22 +18,22 @@ public class separar_matriz {
     }
 
     public int[] sumaColumnas(int matriz[][]) {
-        int suma[] = new int[matriz.length];
+        int sumac[] = new int[matriz.length];
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {
-                suma[j] += matriz[i][j];
+                sumac[j] += matriz[i][j];
             }
         }
-        return suma;
+        return sumac;
     }
 
     public int[] sumaFilas(int matriz[][]) {
-        int suma[] = new int[matriz.length];
+        int sumaf[] = new int[matriz.length];
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {
-                suma[i] += matriz[i][j];
+                sumaf[i] += matriz[i][j];
             }
         }
-        return suma;
+        return sumaf;
     }
 }
