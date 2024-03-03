@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * numeroAleatorio
  */
-public class numeroAleatorio {
+public class numero_aleatorio {
     public int numero() {
         Random random = new Random();
         int numRandom = random.nextInt(60) + 1;

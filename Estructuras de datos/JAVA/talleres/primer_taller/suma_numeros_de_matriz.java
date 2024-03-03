@@ -1,6 +1,6 @@
 package JAVA.talleres.primer_taller;
 
-public class sumaNumerosDeMatriz {
+public class suma_numeros_de_matriz {
     public int sumar(int matriz[][]) {
         int contador = 0;
         for (int i = 0; i < matriz.length; i++) {

@@ -1,6 +1,6 @@
 package JAVA.repaso_matrices;
 
-public class calculosMatriz {
+public class calculos_matriz {
     public float promedio(int matriz[][]) {
         float numeroElementos = matriz.length * matriz.length;
         float sumaElementos = 0;

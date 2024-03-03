@@ -2,7 +2,7 @@ package JAVA.repaso_matrices;
 
 import java.util.Scanner;
 
-public class obtenerDimension {
+public class obtener_dimension {
     Scanner read = new Scanner(System.in);
 
     public int pedirDimension() {

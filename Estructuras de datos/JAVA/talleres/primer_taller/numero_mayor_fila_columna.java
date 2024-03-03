@@ -1,6 +1,6 @@
 package JAVA.talleres.primer_taller;
 
-public class numeroMayorFilaColumna {
+public class numero_mayor_fila_columna {
     public void mayor(int matriz[][]) {
         int mayor = 0;
         int fila = 0;

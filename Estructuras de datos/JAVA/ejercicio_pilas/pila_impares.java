@@ -2,7 +2,7 @@ package JAVA.ejercicio_pilas;
 
 import java.util.Stack;
 
-public class pilaImpares {
+public class pila_impares {
 
     public void generarPila(Stack<Integer> pila) {
         Stack<Integer> pilaImpares = new Stack<>();

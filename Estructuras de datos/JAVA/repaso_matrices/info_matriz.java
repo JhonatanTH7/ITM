@@ -1,6 +1,6 @@
 package JAVA.repaso_matrices;
 
-public class infoMatriz {
+public class info_matriz {
     public void mostrar(int matriz[][]) {
         System.out.println("");
         System.out.println("===== Matriz de " + matriz.length + "x" + matriz.length + " =====");
@@ -15,7 +15,7 @@ public class infoMatriz {
     }
 
     public int[][] llenar(int matriz[][]) {
-        numeroAleatorio numeroAleatorio = new numeroAleatorio();
+        numero_aleatorio numeroAleatorio = new numero_aleatorio();
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {
                 matriz[i][j] = numeroAleatorio.numero();

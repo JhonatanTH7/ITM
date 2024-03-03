@@ -2,7 +2,7 @@ package JAVA.ejercicio_pilas;
 
 import java.util.Stack;
 
-public class promedioPila {
+public class promedio_pila {
     public void promedio(Stack<Integer> pila) {
         double acumulador = 0;
         for (int elemento : pila) {

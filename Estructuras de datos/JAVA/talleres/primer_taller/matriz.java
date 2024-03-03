@@ -1,6 +1,6 @@
 package JAVA.talleres.primer_taller;
 
-import JAVA.ejercicio_pilas.numeroRandom;
+import JAVA.ejercicio_pilas.numero_random;
 
 /**
  * crearMatriz
@@ -8,7 +8,7 @@ import JAVA.ejercicio_pilas.numeroRandom;
 public class matriz {
 
     public int[][] crearMatriz(int dimension) {
-        numeroRandom nr = new numeroRandom();
+        numero_random nr = new numero_random();
         int matriz[][] = new int[dimension][dimension];
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {

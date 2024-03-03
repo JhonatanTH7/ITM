@@ -3,15 +3,15 @@ package JAVA.ejercicio_pilas;
 import java.util.Scanner;
 import java.util.Stack;;
 
-public class index_pilas {
+public class index {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        ordenarPila op = new ordenarPila();
-        pilaPares par = new pilaPares();
-        pilaImpares impar = new pilaImpares();
-        promedioPila pp = new promedioPila();
+        ordenar_pila op = new ordenar_pila();
+        pila_pares par = new pila_pares();
+        pila_impares impar = new pila_impares();
+        promedio_pila pp = new promedio_pila();
         menu menu = new menu();
-        llenarPila llpil = new llenarPila();
+        llenar_pila llpil = new llenar_pila();
         Stack<Integer> pila = new Stack<>();
         boolean a = true;
         System.out.println("Ingrese el numero de elementos n para la pila: ");

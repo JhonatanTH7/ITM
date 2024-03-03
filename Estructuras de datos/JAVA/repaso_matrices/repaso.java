@@ -7,9 +7,9 @@ package JAVA.repaso_matrices;
 public class repaso {
 
     public static void main(String[] args) {
-        obtenerDimension obtenerDimension = new obtenerDimension();
-        infoMatriz infoMatriz = new infoMatriz();
-        calculosMatriz calculosMatriz = new calculosMatriz();
+        obtener_dimension obtenerDimension = new obtener_dimension();
+        info_matriz infoMatriz = new info_matriz();
+        calculos_matriz calculosMatriz = new calculos_matriz();
         int dimension;
         dimension = obtenerDimension.pedirDimension();
         int[][] matriz = new int[dimension][dimension];

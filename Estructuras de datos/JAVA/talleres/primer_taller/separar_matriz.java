@@ -1,6 +1,6 @@
 package JAVA.talleres.primer_taller;
 
-public class separarMatriz {
+public class separar_matriz {
     public void sumaFilasYColumnas(int matriz[][]) {
         int sumaFilas[] = sumaFilas(matriz);
         int sumaColumnas[] = sumaColumnas(matriz);

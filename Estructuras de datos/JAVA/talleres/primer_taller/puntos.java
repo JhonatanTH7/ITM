@@ -7,7 +7,7 @@ public class puntos {
         // 1. Realice un algoritmo que almacene números en una matriz de 6 * 6. Imprimir
         // la suma de los números almacenados en la matriz.
         System.out.println("");
-        sumaNumerosDeMatriz sm = new sumaNumerosDeMatriz();
+        suma_numeros_de_matriz sm = new suma_numeros_de_matriz();
         System.out.println("La suma de todos los elementos de la matriz es " + sm.sumar(mtz.crearMatriz(6)));
     }
 
@@ -15,7 +15,7 @@ public class puntos {
         // 2.Realice un algoritmo que llene una matriz de 5 * 5 y determine la posición
         // [fila ,columna] del número mayor almacenado en la matriz. Los números son
         // diferentes.
-        numeroMayorFilaColumna nm = new numeroMayorFilaColumna();
+        numero_mayor_fila_columna nm = new numero_mayor_fila_columna();
         nm.mayor(mtz.crearMatriz(5));
     }
 
@@ -23,14 +23,14 @@ public class puntos {
         // 3.Realice un algoritmo que llene una matriz de 5 * 5. Calcular la suma de
         // cada fila y almacenarla en un vector, la suma de cada columna y almacenarla
         // en otro vector.
-        separarMatriz sepMat = new separarMatriz();
+        separar_matriz sepMat = new separar_matriz();
         sepMat.sumaFilasYColumnas(mtz.crearMatriz(5));
     }
 
     public void Punto4() {
         // 4.Realice un algoritmo que llene una matriz de 10 * 10. Sumar las columnas e
         // imprimir que columna tuvo la máxima suma y la suma de esa columna
-        separarMatriz sepMat = new separarMatriz();
+        separar_matriz sepMat = new separar_matriz();
         int listaCol[] = sepMat.sumaColumnas(mtz.crearMatriz(10));
         int mayor = 0;
         int posicion = 0;
@@ -51,6 +51,8 @@ public class puntos {
     public void Punto5() {
         // 5.Realice un algoritmo que llene una matriz de 5 * 5 y que almacene toda la
         // matriz en un vector. Imprimir el vector resultante.
+
+        mtz.crearMatriz(5);
     }
 
     public void Punto6() {
