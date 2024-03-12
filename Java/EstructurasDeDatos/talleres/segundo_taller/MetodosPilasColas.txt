@@ -1,0 +1,24 @@
+*Pilas
+    **Instancia: Stack<TipoDeDato> pila = new Stack<TipoDeDato>();
+
+    **Agregar: pila.push(Elemento) el método agrega el elemento especificado a 
+    la parte superior de la pila.
+
+    **Eliminar: pila.pop() el método devuelve el elemento que está en la parte superior de
+    la pila y lo elimina.
+
+    **Acceder a un elemento:  pila.peek() el método devuelve el elemento que está 
+    en la parte superior de la pila.
+
+    **Busqueda: pila.search(Elemento) el método busca en la pila el elemento 
+    especificado. Si se encuentra el elemento requerido, se devuelve su "distancia" 
+    desde la parte superior (número de serie). Si no se encuentra el elemento, se 
+    devuelve -1.
+
+    **Saber si esta vacia: pila.isEmpty() : función booleana para comprobar 
+    si la pila está vacía o no.
+
+*Colas
+    **Agregar:
+
+    **Eliminar:
