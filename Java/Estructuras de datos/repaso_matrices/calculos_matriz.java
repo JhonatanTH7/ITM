@@ -1,4 +1,4 @@
-package JAVA.repaso_matrices;
+package repaso_matrices;
 
 public class calculos_matriz {
     public float promedio(int matriz[][]) {

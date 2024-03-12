@@ -1,4 +1,4 @@
-package JAVA.talleres.primer_taller;
+package talleres.primer_taller;
 
 public class separar_matriz {
     public void sumaFilasYColumnas(int matriz[][]) {

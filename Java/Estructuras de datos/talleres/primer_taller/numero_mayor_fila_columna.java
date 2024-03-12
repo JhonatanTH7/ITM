@@ -1,4 +1,4 @@
-package JAVA.talleres.primer_taller;
+package talleres.primer_taller;
 
 public class numero_mayor_fila_columna {
     public void mayor(int matriz[][]) {

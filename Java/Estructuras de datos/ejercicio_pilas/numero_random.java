@@ -1,10 +1,10 @@
-package JAVA.talleres.primer_taller;
+package ejercicio_pilas;
 
 import java.util.Random;
 
 public class numero_random {
     public int generarNumero() {
         Random r = new Random();
-        return r.nextInt(30) + 1;
+        return r.nextInt(20) + 1;
     }
 }

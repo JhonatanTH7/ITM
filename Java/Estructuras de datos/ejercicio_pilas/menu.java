@@ -1,4 +1,4 @@
-package JAVA.ejercicio_pilas;
+package ejercicio_pilas;
 
 public class menu {
     public void mostrar() {

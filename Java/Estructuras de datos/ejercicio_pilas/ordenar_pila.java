@@ -1,4 +1,4 @@
-package JAVA.ejercicio_pilas;
+package ejercicio_pilas;
 
 import java.util.Collections;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package JAVA.talleres.primer_taller;
+package talleres.primer_taller;
 
 public class puntos {
     matriz mtz = new matriz();

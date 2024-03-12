@@ -1,6 +1,6 @@
-package JAVA.talleres.primer_taller;
+package talleres.primer_taller;
 
-import JAVA.ejercicio_pilas.numero_random;
+import ejercicio_pilas.numero_random;
 
 /**
  * crearMatriz

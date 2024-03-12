@@ -1,4 +1,4 @@
-package JAVA.talleres.primer_taller;
+package talleres.primer_taller;
 
 public class matriz_a_vector {
     public int[] pasar_a_vector(int[][] matriz) {

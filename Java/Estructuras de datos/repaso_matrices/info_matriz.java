@@ -1,4 +1,4 @@
-package JAVA.repaso_matrices;
+package repaso_matrices;
 
 public class info_matriz {
     public void mostrar(int matriz[][]) {

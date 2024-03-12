@@ -1,4 +1,4 @@
-package JAVA.repaso_matrices;
+package repaso_matrices;
 
 import java.util.Scanner;
 
