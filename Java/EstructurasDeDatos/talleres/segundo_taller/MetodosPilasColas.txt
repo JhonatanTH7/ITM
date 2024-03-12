@@ -19,6 +19,7 @@
     si la pila está vacía o no.
 
 *Colas
+    **Instancia: Queue<TipoDeDato> cola = new LinkedList<>();
     **Agregar: cola.offer(Elemento) o cola.add(Elemento) el método agrega el elemento 
     a la cola.
 
