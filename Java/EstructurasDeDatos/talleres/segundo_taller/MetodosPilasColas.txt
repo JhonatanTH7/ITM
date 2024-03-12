@@ -4,8 +4,8 @@
     **Agregar: pila.push(Elemento) el método agrega el elemento especificado a 
     la parte superior de la pila.
 
-    **Eliminar: pila.pop() el método devuelve el elemento que está en la parte superior de
-    la pila y lo elimina.
+    **Eliminar: pila.pop() el método devuelve el elemento que está en la parte superior 
+    de la pila y lo elimina.
 
     **Acceder a un elemento:  pila.peek() el método devuelve el elemento que está 
     en la parte superior de la pila.
@@ -19,6 +19,20 @@
     si la pila está vacía o no.
 
 *Colas
-    **Agregar:
+    **Agregar: cola.offer(Elemento) o cola.add(Elemento) el método agrega el elemento 
+    a la cola.
 
-    **Eliminar:
+    **Eliminar: cola.poll(): Este método elimina y devuelve el primer elemento de la 
+    cola. Si la cola está vacía, devuelve null. o cola.remove(): Este método elimina 
+    el primer elemento de la cola y devuelve true si la operación fue exitosa. Si la 
+    cola está vacía, lanza una excepción NoSuchElementException.
+
+    **Acceder a un elemento: cola.peek(): Este método devuelve el primer elemento de 
+    la cola sin eliminarlo. Si la cola está vacía, devuelve null. o cola.element(): Este 
+    método devuelve el primer elemento de la cola sin eliminarlo. Si la cola está vacía, 
+    lanza una excepción NoSuchElementException.
+
+    **Vaciar: cola.clear(): Este método elimina todos los elementos de la cola, 
+    dejándola vacía.
+
+======= AMBAS SE PUEDEN RECORRER CON FOREACH =======
