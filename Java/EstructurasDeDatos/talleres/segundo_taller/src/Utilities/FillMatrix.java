@@ -1,14 +1,12 @@
 package Java.EstructurasDeDatos.talleres.segundo_taller.src.Utilities;
 
-/**
- * FillMatrix
- */
 public class FillMatrix {
 
-    public int[][] fillIntMAtrix(int[][] matrix) {
+    public int[][] fillIntMAtrix(int[][] matrix, int top, int botttom) {
+        RandomNumber randomNumber = new RandomNumber();
         for (int[] row : matrix) {
             for (int column : row) {
-                row[column] = 0;
+                row[column] = randomNumber.generate(top, botttom);
             }
         }
         return matrix;
