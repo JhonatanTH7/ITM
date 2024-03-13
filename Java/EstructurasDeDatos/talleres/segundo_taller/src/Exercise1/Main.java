@@ -14,7 +14,7 @@ public class Main {
         // cola
         int[][] matrix=new int[3][3];
         FillMatrix fillMatrix=new FillMatrix();
-        fillMatrix.fillIntMAtrix(matrix,20,10);
+        fillMatrix.fillIntMatrix(matrix,20,10);
         PrintMatrix printMatrix=new PrintMatrix();
         printMatrix.printIntMatrix(matrix);
     }
