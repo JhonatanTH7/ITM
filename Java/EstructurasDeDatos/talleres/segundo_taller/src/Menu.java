@@ -3,8 +3,7 @@ package Java.EstructurasDeDatos.talleres.segundo_taller.src;
 import java.util.Scanner;
 
 public class Menu {
-    public String show() {
-        final Scanner read = new Scanner(System.in);
+    public String show(Scanner read) {
         String option = "";
         System.out.println("\n===== Menu =====\n");
         System.out.println("0. Finalizar");
