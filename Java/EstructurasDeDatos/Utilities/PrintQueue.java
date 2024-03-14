@@ -1,4 +1,4 @@
-package Java.EstructurasDeDatos.talleres.segundo_taller.src.Utilities;
+package Java.EstructurasDeDatos.Utilities;
 
 import java.util.Queue;
 
