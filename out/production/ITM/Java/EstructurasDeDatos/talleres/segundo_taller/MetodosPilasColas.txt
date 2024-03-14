@@ -1,0 +1,39 @@
+*Pilas
+    **Instancia: Stack<TipoDeDato> pila = new Stack<TipoDeDato>();
+
+    **Agregar: pila.push(Elemento) el método agrega el elemento especificado a 
+    la parte superior de la pila.
+
+    **Eliminar: pila.pop() el método devuelve el elemento que está en la parte superior 
+    de la pila y lo elimina.
+
+    **Acceder a un elemento:  pila.peek() el método devuelve el elemento que está 
+    en la parte superior de la pila.
+
+    **Busqueda: pila.search(Elemento) el método busca en la pila el elemento 
+    especificado. Si se encuentra el elemento requerido, se devuelve su "distancia" 
+    desde la parte superior (número de serie). Si no se encuentra el elemento, se 
+    devuelve -1.
+
+    **Saber si esta vacia: pila.isEmpty() : función booleana para comprobar 
+    si la pila está vacía o no.
+
+*Colas
+    **Instancia: Queue<TipoDeDato> cola = new LinkedList<>();
+    **Agregar: cola.offer(Elemento) o cola.add(Elemento) el método agrega el elemento 
+    a la cola.
+
+    **Eliminar: cola.poll(): Este método elimina y devuelve el primer elemento de la 
+    cola. Si la cola está vacía, devuelve null. o cola.remove(): Este método elimina 
+    el primer elemento de la cola y devuelve true si la operación fue exitosa. Si la 
+    cola está vacía, lanza una excepción NoSuchElementException.
+
+    **Acceder a un elemento: cola.peek(): Este método devuelve el primer elemento de 
+    la cola sin eliminarlo. Si la cola está vacía, devuelve null. o cola.element(): Este 
+    método devuelve el primer elemento de la cola sin eliminarlo. Si la cola está vacía, 
+    lanza una excepción NoSuchElementException.
+
+    **Vaciar: cola.clear(): Este método elimina todos los elementos de la cola, 
+    dejándola vacía.
+
+======= AMBAS SE PUEDEN RECORRER CON FOREACH =======

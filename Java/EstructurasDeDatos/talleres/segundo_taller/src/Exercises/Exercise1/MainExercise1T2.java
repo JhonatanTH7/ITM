@@ -5,7 +5,7 @@ import Java.EstructurasDeDatos.Utilities.MatrixMethods.FillMatrix;
 import Java.EstructurasDeDatos.Utilities.MatrixMethods.PrintMatrix;
 
 public class MainExercise1T2 {
-    public static void main(String[] args) {
+    public void exercise1() {
         // 1) crear un programa que con el ingreso de una matriz n* n muestre las
         // siguientes opciones
         // 1: método pila con la suma de las filas de la matriz
