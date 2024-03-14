@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Menu {
     public String show() {
-        Scanner read = new Scanner(System.in);
+        final Scanner read = new Scanner(System.in);
         String option = "";
         System.out.println("\n===== Menu =====\n");
         System.out.println("0. Finalizar");
@@ -27,8 +27,6 @@ public class Menu {
         System.out.println("Enter an option: \n");
         option = read.next();
         System.out.println("\n");
-        read.nextLine(); // Para desaserse del caracter que deja haber leido antes
-        read.close();
         return option;
     }
 }

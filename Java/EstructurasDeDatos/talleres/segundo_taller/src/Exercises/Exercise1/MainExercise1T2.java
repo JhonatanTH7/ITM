@@ -4,7 +4,7 @@ import Java.EstructurasDeDatos.Utilities.MatrixMethods.CreateAndAskIntMatrixDime
 import Java.EstructurasDeDatos.Utilities.MatrixMethods.FillMatrix;
 import Java.EstructurasDeDatos.Utilities.MatrixMethods.PrintMatrix;
 
-public class Main {
+public class MainExercise1T2 {
     public static void main(String[] args) {
         // 1) crear un programa que con el ingreso de una matriz n* n muestre las
         // siguientes opciones
