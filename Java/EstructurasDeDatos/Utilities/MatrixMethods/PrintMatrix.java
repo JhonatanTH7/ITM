@@ -1,4 +1,4 @@
-package Java.EstructurasDeDatos.Utilities;
+package Java.EstructurasDeDatos.Utilities.MatrixMethods;
 
 public class PrintMatrix {
     public void printDoubleMatrix(double[][] matrix) {

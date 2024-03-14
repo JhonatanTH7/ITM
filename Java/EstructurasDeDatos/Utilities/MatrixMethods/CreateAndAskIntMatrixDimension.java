@@ -1,4 +1,4 @@
-package Java.EstructurasDeDatos.Utilities;
+package Java.EstructurasDeDatos.Utilities.MatrixMethods;
 
 import java.util.Scanner;
 

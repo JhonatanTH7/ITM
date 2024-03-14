@@ -1,8 +1,8 @@
-package Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercise1;
+package Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise1;
 
-import Java.EstructurasDeDatos.Utilities.CreateAndAskIntMatrixDimension;
-import Java.EstructurasDeDatos.Utilities.FillMatrix;
-import Java.EstructurasDeDatos.Utilities.PrintMatrix;
+import Java.EstructurasDeDatos.Utilities.MatrixMethods.CreateAndAskIntMatrixDimension;
+import Java.EstructurasDeDatos.Utilities.MatrixMethods.FillMatrix;
+import Java.EstructurasDeDatos.Utilities.MatrixMethods.PrintMatrix;
 
 public class Main {
     public static void main(String[] args) {

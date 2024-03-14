@@ -1,4 +1,6 @@
-package Java.EstructurasDeDatos.Utilities;
+package Java.EstructurasDeDatos.Utilities.MatrixMethods;
+
+import Java.EstructurasDeDatos.Utilities.RandomNumber;
 
 public class FillMatrix {
 

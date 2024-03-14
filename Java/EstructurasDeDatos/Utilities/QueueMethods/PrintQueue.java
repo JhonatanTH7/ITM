@@ -1,4 +1,4 @@
-package Java.EstructurasDeDatos.Utilities;
+package Java.EstructurasDeDatos.Utilities.QueueMethods;
 
 import java.util.Queue;
 

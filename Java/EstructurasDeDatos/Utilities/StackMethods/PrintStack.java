@@ -1,4 +1,4 @@
-package Java.EstructurasDeDatos.Utilities;
+package Java.EstructurasDeDatos.Utilities.StackMethods;
 
 import java.util.Stack;
 
