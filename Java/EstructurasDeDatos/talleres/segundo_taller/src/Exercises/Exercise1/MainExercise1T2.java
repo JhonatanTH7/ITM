@@ -59,9 +59,7 @@ public class MainExercise1T2 {
 
 
         SortQueue sortQueue = new SortQueue();
-        sumCols = sortQueue.sortDescendant(sumCols);
-        PrintQueue printQueue2 = new PrintQueue();
         System.out.print("Columns Queue ordered from highest to lowest: ");
-        printQueue2.printIntegerQueue(sumCols);
+        printQueue.printIntegerQueue(sortQueue.sortDescendant(sumCols));
     }
 }

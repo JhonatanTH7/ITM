@@ -1,16 +1,15 @@
 package Java.EstructurasDeDatos.Utilities.QueueMethods;
 
+import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class SortQueue {
 
     public Queue<Integer> sortDescendant(Queue<Integer> queue) {
-        Queue<Integer> sortedQueue = new PriorityQueue<>((a, b) -> Integer.compare(b, a));
-        for (int element : queue) {
-            sortedQueue.offer(element);
-        }
-        return sortedQueue;
+        Queue<Integer> colaOrdenada = new PriorityQueue<>(Collections.reverseOrder());
+        colaOrdenada.addAll(queue);
+        return colaOrdenada;
     }
 
     public PriorityQueue<Integer> sortAscendant(Queue<Integer> queue) {
