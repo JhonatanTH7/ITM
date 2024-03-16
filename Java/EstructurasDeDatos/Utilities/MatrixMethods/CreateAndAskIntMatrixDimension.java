@@ -16,10 +16,8 @@ public class CreateAndAskIntMatrixDimension {
             } catch (Exception e) {
                 System.out.println("Entered value is not valid, try again");
             }
-        } while (flag == true);
-        int[][] matrix = new int[n][n];
-        return matrix;
-
+        } while (flag);
+        return new int[n][n];
     }
 
     public int[][] NxM_Matrix() {
@@ -35,8 +33,7 @@ public class CreateAndAskIntMatrixDimension {
             } catch (Exception e) {
                 System.out.println("Entered value is not valid, try again");
             }
-        } while (flag == true);
-        int[][] matrix = new int[n][m];
-        return matrix;
+        } while (flag);
+        return new int[n][m];
     }
 }
