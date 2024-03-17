@@ -2,9 +2,12 @@ package Java.EstructurasDeDatos.talleres.segundo_taller.src;
 
 import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise1.MainExercise1T2;
 import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise2.MainExercise2T2;
+import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise5.MainExercise5T2;
+
+import java.util.Scanner;
 
 public class Options {
-    public void mainOptions(String option) {
+    public void mainOptions(Scanner read, String option) {
         switch (option) {
             case "0":
                 System.out.println("See you next time!!!");
@@ -15,7 +18,7 @@ public class Options {
                 break;
             case "2":
                 MainExercise2T2 mainExercise2T2 = new MainExercise2T2();
-                mainExercise2T2.invertir();
+                mainExercise2T2.invertir(read);
                 break;
             case "3":
 
@@ -24,7 +27,8 @@ public class Options {
 
                 break;
             case "5":
-
+                MainExercise5T2 mainExercise5T2 = new MainExercise5T2();
+                mainExercise5T2.Exercise5();
                 break;
             case "6":
 
@@ -62,6 +66,11 @@ public class Options {
             default:
                 System.out.println("Not a valid option");
                 break;
+        }
+        if (!option.equals("0")) {
+            System.out.println(" ");
+            System.out.println("Presione enter para volver al menú...");
+            read.nextLine();
         }
     }
 }

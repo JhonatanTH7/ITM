@@ -26,6 +26,7 @@ public class Menu {
         System.out.println("Enter an option: \n");
         option = read.next();
         System.out.println("\n");
+        read.nextLine(); // Para eliminar el caracter que deja haber leído antes
         return option;
     }
 }

@@ -2,27 +2,31 @@ package Java.EstructurasDeDatos.Utilities.ListMethods;
 
 public class PrintList {
 
-    public static void printDoubleList(double[] list) {
+    public void printDoubleList(double[] list) {
         for (double j : list) {
-            System.out.println(j);
+            System.out.print((j) + " ");
         }
+        System.out.println(" ");
     }
 
-    public static void printIntList(int[] list) {
+    public void printIntList(int[] list) {
         for (int j : list) {
-            System.out.println(j);
+            System.out.print(j + " ");
         }
+        System.out.println(" ");
     }
 
-    public static void printStringList(String[] list) {
+    public void printStringList(String[] list) {
         for (String j : list) {
-            System.out.println(j);
+            System.out.print(j + " ");
         }
+        System.out.println(" ");
     }
 
-    public static void printBooleanList(boolean[] list) {
+    public void printBooleanList(boolean[] list) {
         for (boolean j : list) {
-            System.out.println(j);
+            System.out.print(j + " ");
         }
+        System.out.println(" ");
     }
 }

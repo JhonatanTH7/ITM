@@ -10,7 +10,7 @@ public class Main {
         String option;
         do {
             option = menu.show(read);
-            options.mainOptions(option);
+            options.mainOptions(read, option);
         } while (!option.equals("0"));
     }
 }
