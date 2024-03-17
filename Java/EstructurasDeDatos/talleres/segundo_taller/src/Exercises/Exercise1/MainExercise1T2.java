@@ -9,6 +9,7 @@ import Java.EstructurasDeDatos.Utilities.QueueMethods.SortQueue;
 import Java.EstructurasDeDatos.Utilities.StackMethods.PrintStack;
 
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -60,6 +61,7 @@ public class MainExercise1T2 {
 
         SortQueue sortQueue = new SortQueue();
         System.out.print("Columns Queue ordered from highest to lowest: ");
-        printQueue.printIntegerQueue(sortQueue.sortDescendant(sumCols));
+        sumCols = sortQueue.sortDescendant(sumCols);
+        printQueue.printIntegerQueue(sumCols);
     }
 }

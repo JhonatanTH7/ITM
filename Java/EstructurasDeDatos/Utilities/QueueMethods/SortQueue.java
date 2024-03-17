@@ -1,22 +1,33 @@
 package Java.EstructurasDeDatos.Utilities.QueueMethods;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class SortQueue {
 
-    public Queue<Integer> sortDescendant(Queue<Integer> queue) {
-        Queue<Integer> colaOrdenada = new PriorityQueue<>(Collections.reverseOrder());
-        colaOrdenada.addAll(queue);
-        return colaOrdenada;
+    public Queue<Integer> sortDescendant(Queue<Integer> cola) {
+        ArrayList<Integer> auxList = new ArrayList<>();
+        while (!cola.isEmpty()) {
+            auxList.add(cola.poll());
+        }
+        auxList.sort(Collections.reverseOrder());
+        for (int element : auxList) {
+            cola.offer(element);
+        }
+        return cola;
     }
 
-    public PriorityQueue<Integer> sortAscendant(Queue<Integer> queue) {
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
-        for (int element : queue) {
-            priorityQueue.offer(element);
+    public Queue<Integer> sortAscendant(Queue<Integer> cola) {
+        ArrayList<Integer> auxList = new ArrayList<>();
+        while (!cola.isEmpty()) {
+            auxList.add(cola.poll());
         }
-        return priorityQueue;
+        Collections.sort(auxList);
+        for (int element : auxList) {
+            cola.offer(element);
+        }
+        return cola;
     }
 }
