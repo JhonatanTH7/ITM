@@ -1,18 +1,21 @@
 package Java.EstructurasDeDatos.talleres.segundo_taller.src;
 
-import javax.swing.*;
+import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise1.MainExercise1T2;
+import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise2.MainExercise2T2;
 
 public class Options {
     public void mainOptions(String option) {
         switch (option) {
             case "0":
-                JOptionPane.showMessageDialog(null, "See you next time!!!");
+                System.out.println("See you next time!!!");
                 break;
             case "1":
-
+                MainExercise1T2 mainExercise1T2 = new MainExercise1T2();
+                mainExercise1T2.exercise1();
                 break;
             case "2":
-
+                MainExercise2T2 mainExercise2T2 = new MainExercise2T2();
+                mainExercise2T2.invertir();
                 break;
             case "3":
 
@@ -57,8 +60,8 @@ public class Options {
 
                 break;
             default:
+                System.out.println("Not a valid option");
                 break;
         }
-        return;
     }
 }
