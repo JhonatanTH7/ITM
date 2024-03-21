@@ -2,7 +2,6 @@ package Java.EstructurasDeDatos.Utilities.QueueMethods;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class SortQueue {

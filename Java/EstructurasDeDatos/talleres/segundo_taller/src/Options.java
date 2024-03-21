@@ -34,6 +34,7 @@ public class Options {
             case "5":
                 MainExercise5T2 mainExercise5T2 = new MainExercise5T2();
                 mainExercise5T2.Exercise5(read);
+                read.nextLine();// Desaserce de caracter invisible
                 break;
             case "6":
                 MainExercise6T2 mainExercise6T2 = new MainExercise6T2();
