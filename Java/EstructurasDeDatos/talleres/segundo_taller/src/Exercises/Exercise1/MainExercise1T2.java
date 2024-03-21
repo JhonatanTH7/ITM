@@ -1,15 +1,11 @@
 package Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise1;
 
 import Java.EstructurasDeDatos.Utilities.Factorial;
-import Java.EstructurasDeDatos.Utilities.MatrixMethods.CreateAndAskIntMatrixDimension;
-import Java.EstructurasDeDatos.Utilities.MatrixMethods.FillMatrix;
-import Java.EstructurasDeDatos.Utilities.MatrixMethods.PrintMatrix;
+import Java.EstructurasDeDatos.Utilities.MatrixMethods.*;
 import Java.EstructurasDeDatos.Utilities.QueueMethods.PrintQueue;
 import Java.EstructurasDeDatos.Utilities.QueueMethods.SortQueue;
 import Java.EstructurasDeDatos.Utilities.StackMethods.PrintStack;
 
-import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -25,40 +21,29 @@ public class MainExercise1T2 {
         PrintMatrix printMatrix = new PrintMatrix();
         CreateAndAskIntMatrixDimension CreateAndAskIntMatrixDimension = new CreateAndAskIntMatrixDimension();
         FillMatrix fillMatrix = new FillMatrix();
+        //Creación y llenado de la matriz
         int[][] matrix = fillMatrix.fillIntMatrix(CreateAndAskIntMatrixDimension.NxN_Matrix(), 30, 15);
         printMatrix.printIntMatrix(matrix);
 
-
-        Stack<Integer> sumRows = new Stack<>();
-        for (int[] row : matrix) {
-            int acumRows = 0;
-            for (int column : row) {
-                acumRows += column;
-            }
-            sumRows.push(acumRows);
-        }
+        //Suma de las filas en pila
+        RowsSumToStack rowsSumToStack = new RowsSumToStack();
         PrintStack printStack = new PrintStack();
+        Stack<Integer> sumRows = rowsSumToStack.generate(matrix);
         System.out.print("Stack with the sum of the rows: ");
         printStack.printIntegerStack(sumRows);
 
-
-        Queue<Integer> sumCols = new LinkedList<>();
-        for (int i = 0; i < matrix[0].length; i++) {
-            int acumCols = 0;
-            for (int[] row : matrix) {
-                acumCols += row[i];
-            }
-            sumCols.offer(acumCols);
-        }
+        //Suma de las columnas en cola
+        ColumnsSumToQueue columnsSumToQueue = new ColumnsSumToQueue();
         PrintQueue printQueue = new PrintQueue();
-        System.out.print("Stack with the sum of the columns: ");
+        Queue<Integer> sumCols = columnsSumToQueue.generate(matrix);
+        System.out.print("Queue with the sum of the columns: ");
         printQueue.printIntegerQueue(sumCols);
 
-
+        //Factorial de la dimension de la matriz
         Factorial factorial = new Factorial();
         System.out.println("Factorial of matrix's dimension: " + factorial.calculate(matrix.length));
 
-
+        //Cola de columnas ordenada de mayor a menor
         SortQueue sortQueue = new SortQueue();
         System.out.print("Columns Queue ordered from highest to lowest: ");
         sumCols = sortQueue.sortDescendant(sumCols);

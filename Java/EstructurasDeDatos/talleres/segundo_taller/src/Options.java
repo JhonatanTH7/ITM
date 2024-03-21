@@ -3,7 +3,9 @@ package Java.EstructurasDeDatos.talleres.segundo_taller.src;
 import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise1.MainExercise1T2;
 import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise2.MainExercise2T2;
 import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise3.MainExercise3T2;
+import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise4.MainExercise4T2;
 import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise5.MainExercise5T2;
+import Java.EstructurasDeDatos.talleres.segundo_taller.src.Exercises.Exercise6.MainExercise6T2;
 
 import java.util.Scanner;
 
@@ -26,14 +28,16 @@ public class Options {
                 mainExercise3T2.exercise3(read);
                 break;
             case "4":
-
+                MainExercise4T2 mainExercise4T2 = new MainExercise4T2();
+                mainExercise4T2.exercise4();
                 break;
             case "5":
                 MainExercise5T2 mainExercise5T2 = new MainExercise5T2();
                 mainExercise5T2.Exercise5(read);
                 break;
             case "6":
-
+                MainExercise6T2 mainExercise6T2 = new MainExercise6T2();
+                mainExercise6T2.Exercise6();
                 break;
             case "7":
 
